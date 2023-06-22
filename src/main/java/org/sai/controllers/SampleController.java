@@ -16,4 +16,9 @@ public class SampleController {
     String name(){
         return "Sai Pruthvik";
     }
+
+    @GetMapping("/age")
+    int age(){
+        return 22;
+    }
 }
